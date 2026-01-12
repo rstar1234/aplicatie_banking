@@ -61,6 +61,7 @@ public class BankGUI extends JFrame implements BankGUIUpdater {
 
         topPanel.add(new JLabel("Amount:"));
         amountField = new JTextField();
+        amountField.setText("0.0");
         topPanel.add(amountField);
         
         mainBankingPanel.add(topPanel, BorderLayout.NORTH);
